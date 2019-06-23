@@ -1,4 +1,4 @@
-# KNN_with_KD_Tree
+# kNN_with_KD_Tree
 
 We implement a kNN (k Nearest Neighbor) Classifier using a KD tree. For any query point, a kNN Classifier outputs the most 
 frequent label of its k nearest neighbors in the training data. A KD Tree is used to make searching for the k nearest 
