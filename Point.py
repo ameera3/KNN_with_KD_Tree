@@ -13,9 +13,6 @@ class Point:
         self.numDim = len(features)
         self.squareDistToQuery = 0
 
-    def getClassification(self):
-        return self.classification
-        
     def setSquareDistToQuery(self, queryPoint):
         squareDistToQuery = 0
         for i in range(self.numDim):

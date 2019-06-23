@@ -112,11 +112,11 @@ class KDT:
 
     # Helper method to update your data structure storing KNN using
     # the given point. If kNearest has size less than k, insert point
-    # into kNearest and insert its distance to query into distances.
-    # Otherwise, find the maximum element in the distances vector
+    # and its distance into kNearest. Otherwise, find the point in
+    # kNearest with maximum distance from the query point
     # and set threshold equal to this distance. If point has distance
     # less than threshold to query, then insert this point into
-    # kNearest and remove the point with the worst distance. Update
+    # kNearest and remove the point with the maximum distance. Update
     # threshold.
 
     def updateKNN(self, myPoint, distPQ):
