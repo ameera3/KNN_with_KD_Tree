@@ -3,7 +3,7 @@
 # (number of nearest neighbors). The second is the name of the training
 # data file. The third is the name of input data file. The fourth is a
 # flag which is either "validation" or "test".
-# Usage: python KNNClassifier.py -k 3 -t ./training -i ./input -m test
+# Usage: python3 KNNClassifier.py -k 3 -t ./training -i ./input -m test
 
 import argparse
 from Point import Point
