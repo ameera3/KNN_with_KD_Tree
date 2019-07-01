@@ -4,6 +4,8 @@ We implement a kNN (k Nearest Neighbor) Classifier using a KD tree. For any quer
 frequent label of its k nearest neighbors in the training data. A KD Tree is used to make searching for the k nearest 
 neighbors more efficient.  
 
+This is the Python partial solution to this CSE 100 [assignment](https://sites.google.com/eng.ucsd.edu/cao100/programming-assignments/pa1-bst-and-kd-tree-in-c/part-2-kd-tree-in-c). I coded this in C++ too, but the C++ repo remains private for academic integrity reasons.
+
 ## Usage 
 The KNNClassifier.py program takes in 4 command line arguments and outputs a file called "result.txt". The first 
 command line argument is the choice of k in KNN (number of nearest neighbors). The second is the name of the training 
